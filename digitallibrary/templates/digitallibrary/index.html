@@ -1,0 +1,11 @@
+{% load bootstrap3 %}
+
+{% if student_list %}
+    <ul>
+    {% for student in student_list %}
+        <li><a href="/polls/{{ student.id }}/">{{ student.fullname }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No student is available.</p>
+{% endif %}

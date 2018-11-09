@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'digitallibrary.apps.DigitallibraryConfig',
-    'recommender.apps.RecommenderConfig',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
